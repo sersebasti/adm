@@ -1,0 +1,16 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_colormag-pro">
+			<key name="custom_logo" />
+			<key name="header_image" />
+			<key name="header_video" />
+			<key name="external_header_video" />
+			<key name="background_image" />
+			<key name="colormag_footer_editor" />
+			<key name="colormag_read_more_text" />
+			<key name="colormag_view_all_text" />
+			<key name="colormag_you_may_also_like_text" />
+			<key name="colormag_breaking_news_content_option" />
+		</key>
+	</admin-texts>
+</wpml-config>

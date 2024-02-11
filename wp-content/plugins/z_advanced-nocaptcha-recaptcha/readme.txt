@@ -1,0 +1,380 @@
+=== CAPTCHA 4WP ===
+Contributors: WPWhiteSecurity
+Tags: recaptcha, nocaptcha, captcha, invisible captcha, spam protection, captcha for WooCommerce, forms captcha
+Requires at least: 5.0
+Tested up to: 5.9.1
+Stable tag: 7.0.6.1
+Requires PHP: 7.0
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl.html
+
+Stop spam bots, fake accounts, and fake orders and allow prospects and customers to interact with your website with ease - add CAPTCHA to any form on your website.
+
+== Description ==
+
+<strong>THE MOST POWERFUL & EASY TO USE CAPTCHA SOLUTION FOR WORDPRESS WEBSITES</strong><br />
+
+Add CAPTCHA to any form on your WordPress website. Protect the WordPress comments, login, lost password and user registration forms with CAPTCHA. With CAPTCHA 4WP you can also add CAPTCHA to forms created with Contact Form 7, MailChimp for WordPress, BuddyPress, WooCommerce, bbPress and many others.
+
+CAPTCHA 4WP is very easy to us, allowing you to implement CAPTCHA to any form easily, including your WooCommerce checkout page within just minutes. The plugin is trusted by more than 200,000 administrators to protect their websites from spam, fake accounts, & fake orders!
+
+> With the free edition you can add CAPTCHA to the built-in forms in WordPress, such as the login and comments form. To add CAPTCHA to forms by third party plugins, such as WooCommerce, Contact Form 7 and BuddyPress <strong>[upgrade to CAPTCHA 4WP Premium](https://www.wpwhitesecurity.com/wordpress-plugins/captcha-plugin-wordpress/pricing/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=C4WP&utm_content=plugin+repos+description)</strong>.<strong>
+>
+
+#### Maintained & Supported by WP White Security
+
+WP White Security is a European development company that builds high-quality WordPress security & admin plugins. Check out our list of [WordPress security plugins](https://www.wpwhitesecurity.com/wordpress-plugins/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=all+plugins&utm_content=plugin+repos+description) for more information on how our plugins can help you better manage and improve the security of your WordPress websites and users.
+
+#### Add Spam protection on:
+
+* WordPress Login, user registration and comment form
+* WordPress lost password and reset password pages
+* WooCommerce checkout & registration form (Premium)
+* WooCommerce login, password reset / lost password pages (Premium)
+* BuddyPress user registration, comments and group forms (Premium)
+* bbPress(New topic, reply to topic & registration) (Premium)
+* Contact & other types of forms created with Contact Form 7, MailChimp for WordPress and other third party plugins (Premium).
+
+###  Additional features
+
+* Select from different types of CAPTCHA (v2 I'm not robot checkbox, v2 invisible or v3)
+* Set CAPTCHA passmark score
+* Configure the plugin to automatically detect the visitor's language setting and show CAPTCHA in that language
+* Configure the CAPTCHA properties, such as theme, size, badge location & more
+* White-list logged in users, IP address and URLs
+* Add CAPTCHA to any type of form, including PHP forms
+* Show CAPTCHA on login page if there are failed logins
+
+Refer to the <strong>[CAPTCHA plugin benefits and features](https://www.wpwhitesecurity.com/wordpress-plugins/captcha-plugin-wordpress/features-benefits/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=all+plugins&utm_content=plugin+repos+description)</strong> for a complete list of all the features you can take advantage of to protect your website and e-commerce store from spam, automated spam bots, fake registrations, and fake orders!
+
+### Free and Premium Support
+
+Support for CAPTCHA 4WP is free on the WordPress support forums.
+
+Premium world-class support is available via email to all [CAPTCHA 4WP Premium](https://www.wpwhitesecurity.com/wordpress-plugins/captcha-plugin-wordpress/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=C4WP&utm_content=plugin+repos+description) users.
+
+> <strong>Note</strong>: paid customer support is given priority and is provided via one-to-one email. [Upgrade to Premium](https://www.wpwhitesecurity.com/wordpress-plugins/captcha-plugin-wordpress/pricing/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=C4WP&utm_content=plugin+repos+description) to benefit from priority support.
+>
+
+### As Featured On:
+
+* [WPBeginner](https://www.wpbeginner.com/plugins/how-to-add-captcha-in-wordpress-login-and-registration-form/)
+* [Elegant Themes](https://www.elegantthemes.com/blog/wordpress/wordpress-captcha)
+* [IsItWP](https://www.isitwp.com/best-wordpress-captcha-plugins/)
+* [WPLift](https://wplift.com/best-wordpress-captcha-plugins)
+* [TesterWP](https://testerwp.com/best-free-captcha-wordpress-plugins/)
+
+
+#### Privacy Notice
+
+* This plugin sends the visitor's IP address to Google for CAPTCHA verification. This happens on all websites that use these type of CAPTCHA services. Please read the [Google Privacy Policy](https://policies.google.com/) for more information.
+
+== Installation ==
+
+=== Install CAPTCHA 4WP from within WordPress ===
+
+1. Visit the 'Plugins' page
+1. Click the 'Add New' button and search for 'CAPTCHA 4WP'
+1. Install and activate the CAPTCHA 4WP plugin
+
+=== Install WP Activity Log manually ===
+
+1. Upload the `advanced-nocaptcha-recaptcha` directory to the `/wp-content/plugins/` directory
+1. Activate the CAPTCHA 4WP plugin from the 'Plugins' page in WordPress
+
+== Frequently Asked Questions ==
+
+= Can i use this plugin to my language? =
+Yes. this plugin is translator ready. If you want to help translating this plugin in your language [contact us](https://www.wpwhitesecurity.com/contact/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=C4WP&utm_content=plugin+repos+description).
+
+= Can i show multiple CAPTCHA's on the same page? =
+Yes. You can show an unlimited number of CAPTCHA's on the same page.
+
+= How can I add CAPTCHA to a form created with Contact Form 7? =
+Use the unique 1-click feature: simply click the "Add CAPTCHA" button in the Contact Form 7 form builder to add the CAPTCHA to the form.
+
+= How can I add Captcha in WooCommerce pages? =
+Simply select the WooCommerce page you want to add CAPTCHA to in the plugin's CAPTCHA placement settings. You can also specify where exactly you want to add the CAPTCHA test on the checkout page.
+
+
+== Screenshots ==
+
+1. CAPTCHA in the WordPress login form
+2. CAPTCHA in the WordPress comments form
+3. CAPTCHA in WooCommerce (multiple CAPTCHA's in the same page)
+4. CAPTCHA in user registration form
+5. CAPTCHA in password reset / change form
+6. CAPTCHA in lost password request form
+
+== Changelog ==
+
+= 7.0.6.1 (20220315) =
+
+* **Improvements**
+	* Ensure migration script to new options table is run where needed.
+    * Ensure correct default language is set during update in free edition.
+    * Ensure verification does not hinder hook requests where no CAPTCHA is posted.
+
+= 7.0.6 (20220304) =
+
+Release notes: [CAPTCHA 4WP 7.0.6 Free Edition](https://www.wpwhitesecurity.com/c4wp-free-7-0-6/)
+
+* **Breaking change**
+	* CAPTCHA on forms creatd with third party plugins available through the Premium. [Get a free 7-day trial](https://www.wpwhitesecurity.com/wordpress-plugins/captcha-plugin-wordpress/plugin-trial/).
+
+* **Improvements**
+	* Ensure plugin does not attempt to verify if submission contains no captcha field.
+	* Overall admin UI improvements, including responsive styling.
+
+* **Bug fixes**
+	* Updated v2 invisible form submission JS for wider compatibility.
+	* Fix logic to ensure "login_captcha_filter" return accurate response.
+	* Fixed error which caused "please solve CAPTCHA" message to appear on the "lost password" form.
+	* Fixed redirection during installation on a network to ensure plugin takes user to correct admin area.
+	* Fix JS bug which could cause comments to not POST with v2 invisible captcha.
+
+= 7.0.3 (20220121) =
+
+* **Improvements**
+	* Improved logic to dermine if a login verification should be "skipped" dependant on POSTed values.
+
+* **Bug fixes**
+	* Fixed: Fixed issue which could cause login CAPTCHA's to not display.
+
+= 7.0.2 (20220119) =
+
+* **Bug fixes**
+	* Fixed: Ensure plugin does not interfere with unwanted "authenticate" calls.
+	* Fixed: Use of private "construct" within CF7 extension.
+
+= 7.0.1 (20220119) =
+
+* **Bug fixes**
+	* Fixed: PHP 7.2 Compatibility issue.
+
+= 7.0.0 (20220119) =
+
+Release notes: [Plugin reload: Advanced noCaptcha & invisible Captcha is now CAPTCHA 4WP](https://www.wpwhitesecurity.com/advanced-nocaptcha-recaptcha-renamed-captcha-4wp)
+
+* **New features**
+
+	* Plugin renamed to CAPTCHA 4WP.
+	* New UI with improved UX. 
+	* Plugin can now be activated at multisite network level or at individual child-sites level.
+	
+* **Improvements**
+	* Plugin now has its own dedicated top level menu entry for configuration.
+	* Replaced the plugin prefix to c4wp_ (both internally and for shortcodes). 
+	* Updated a number of translatable strings.
+	* Added a specific upgrade script to handle upgrades from pre v7.0.
+	* Fixed support for PHP v7.2.
+	* Added compatibility support for Wordfence 2FA.
+	* Ensure failed logins filter only runs when apppropriate.
+	* Added ability to detect and ignore REST API requests.
+	* Removed the Freemius SDK.
+	* Added a dedicated help and support area with downloadable "system info" for easier troubleshooting (in case support need it).
+	* Failed login data is now stored in its own table with configurable pruning.
+	* Seperated WooCommerce form logic to allow registration and login forms to be enabled/disabled independantally from the WordPress built-in forms.
+	* Third party plugins extensions are now handled via seperate classes for modularity.
+	* Better sanitization when saving admin options.
+	* Removed obsolete "NoJS" setting.
+	* Improved v2 Checkbox field positioning on WP login page.
+	* Added support for Buddypress comments and activity areas.
+	
+= 6.1.7 (20211006) =
+
+* IMPROVEMENT: Updated all the FAQs and help text links to point to the new documentation pages.
+* IMPROVEMENT: Improved the help text for CAPTCHA v3 to better explain the severity scoring system.
+* IMPROVEMENT: Ensure CAPTCHA is not loaded when a page is viewed via Wthe P customizer/Widget view (introduced in WP 5.8)
+* IMPROVEMENT: Better support for PHP8
+* FIX: Updated the CF7 field to ensure error messages are shown correctly when validation fails.
+* FIX: Stopped CAPTCHA from being enforced on reset links, which causes sending of reset links via admin to fail.
+* FIX: Admin notice dismissal is improved to avoid load "blank" tabs.
+* FIX: Updated how form submission is handled during validation to improve compatibility (CAPTCHA V2).
+* FIX: Fixed issue with CAPTCHA always failing validation on password reset screen (CAPTCHA V2).
+* FIX: Fixed issue with CAPTCHA validation failing on WooCommerce checkout.
+
+= 6.1.6 (20210907) =
+
+* UPDATE: Announcing new developer + future updates.
+
+= 6.1.5 =
+
+* FIX: error in php version 7.4
+
+= 6.1.4 =
+
+* Use tab navigation for settings. Remove extra menu items from admin sidebar.
+* Link to documentation on How to get google reCAPTCHA keys.
+* Increase footer hook priority as some theme add login/register form with higher priority.
+
+= 6.1.3 =
+
+* recaptcha.net domain added.
+* Error message now can be translated in file.
+
+= 6.1.2 =
+
+* Add Contact form 7 integration instruction page link in settings page of this plugin.
+
+= 6.1.1 =
+
+* recaptcha domain can now be changed from settings.
+* footer script hook priority changed.
+* use same settings if network activated.
+* for cf7, use this plugins captcha instead of cf7 captcha.
+
+= 5.7.1 =
+
+* Minor bug fixed.
+
+= 5.7 =
+
+* IP whitelist feature added.
+* Captcha V3 timeout issue fixed.
+* UM login issue fixed.
+
+= 5.6 =
+
+* Return last verify incase of duplicate checking.
+* Add google scripts src filters.
+* Custom hook and captcha shortcode now support logged in setup.
+
+= 5.5 =
+
+* Fix: Multisite site signup during registration failed due to double verification.
+* Fix: Comment reply failed from back-end.
+
+= 5.4 =
+
+* Use js for loop instead of php for loop
+* Use number_formate_i18n to translate float
+* Tested upto updated.
+
+= 5.3 =
+
+* Fix: Compatibility issue with reCaptcha v3 and CF7 version 5.1 & 5.1.1
+
+= 5.2 =
+
+* Now support reCaptcha v3 also
+* Fix: invisible captcha sometimes was not working
+* anr_verify_captcha filter added
+
+= 4.4 =
+
+* PRO version released
+* anr_verify_captcha_pre filter added
+* anr_get_option filter added
+
+= 4.3 =
+
+* Reset captcha if CF7 validation error occur
+* Changed Tested up to
+
+= 4.2 =
+
+* BuddyPress mentioned in readme
+* WooCommerce checkout captcha sometimes did not verify
+* Reset captcha if WooCommerce checkout error occur
+* If WordPress version is 4.9.0 or greater then pre_comment_approved filter used for comment which we can now return WP_Error
+
+= 4.1 =
+
+* Settings page redesigned.
+* anr_is_form_enabled function added
+* Captcha error show first before username password error. So if captcha is not validated then username password error is not shown.
+* enqueue login css only if normal captcha is shown
+* Enabled forms stored as an array in db. array key is enabled_forms
+* Add class ANR_Settings, removed class anr_admin_class
+* BuddyPress register captcha added
+
+= 3.1 =
+
+* Sometimes fatal error if is_admin return true in front-end.
+* Do not show captcha in checkout if not checked for checkout.
+
+= 2.8 =
+
+* Now show captcha when use wp_login_form() function to create login form.
+
+= 2.7 =
+
+* Fix: Settings page checkbox uncheck was not working.
+
+= 2.6 =
+
+* New: Show captcha after set failed login attempts (may not work if you use ajax based login form, fall back to show always).
+* Fix: contact form 7 deprecated function use.
+
+= 2.5 =
+
+* New: Invisible captcha feature added.
+* Fix: Show captcha error when login form loaded
+* Move this plugin settings page under Settings
+
+= 2.4 =
+
+* Bug fix: WooCommerce lostpassword corrupted link
+
+= 2.3 =
+
+* Comment form captcha issue fixed.
+* Captcha now wraped in anr_captcha_field div class.
+* Comment form captcha p tag removed.
+
+= 2.2 =
+
+* Security update.
+* WooCommerce checkout form issue fixed.
+
+= 2.1 =
+
+* Captcha in WooCommerce added (WooCommerce Login, Registration, Lost password, Reset password forms).
+* Allow multiple captcha in same page.
+* Text domain changed.
+* Some minor bug fixed.
+
+= 1.3 =
+
+* New filter 'anr_same_settings_for_all_sites' added, Now same settings can be used for all sites in Multisite.
+* Multisite User Signup Form added.
+* Some bug fixed.
+
+= 1.2 =
+
+* Now captcha size can be changed.
+* bbPress New topic added
+* bbPress reply to topic added
+* XMLRPC_REQUEST Check
+* Some bug fixed.
+
+= 1.1 =
+
+* Initial release.
+
+== Upgrade Notice ==
+
+= 6.1.5 =
+
+* FIX: error in php version 7.4
+
+= 6.1.4 =
+
+* Use tab navigation for settings. Remove extra menu items from admin sidebar.
+* Link to documentation on How to get google reCAPTCHA keys.
+* Increase footer hook priority as some theme add login/register form with higher priority.
+
+= 6.1.3 =
+
+* recaptcha.net domain added.
+* Error message now can be translated in file.
+
+= 2.7 =
+
+* Fix: Settings page checkbox uncheck was not working.
+
+= 2.6 =
+
+* New: Show captcha after set failed login attempts (may not work if you use ajax based login form, fall back to show always).
+* Fix: contact form 7 deprecated function use.
