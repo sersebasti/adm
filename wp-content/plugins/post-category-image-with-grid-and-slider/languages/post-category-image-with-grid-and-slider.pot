@@ -1,0 +1,156 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Category Image With Grid and Slider\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-09 13:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: includes/admin/class-pciwgas-admin.php:37
+msgid "Category Image"
+msgstr ""
+
+#: includes/class-pciwgas-script.php:45
+msgid "Choose Category Image"
+msgstr ""
+
+#: includes/class-pciwgas-script.php:46
+msgid "Choose Image"
+msgstr ""
+
+#: includes/admin/form-field/add-form.php:19
+#: includes/admin/form-field/edit-form.php:22
+msgid "Clear"
+msgstr ""
+
+#: includes/admin/settings/settings.php:97
+msgid "Display categories in grid view"
+msgstr ""
+
+#: includes/admin/settings/settings.php:99
+msgid "Display categories in slider view"
+msgstr ""
+
+#: includes/admin/supports/gutenberg-block.php:229
+msgid "Essential Plugin Blocks"
+msgstr ""
+
+#: includes/admin/settings/settings.php:84
+msgid "How it Work"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid ""
+"https://www.essentialplugin.com/wordpress-plugin/post-category-image-grid-"
+"slider/"
+msgstr ""
+
+#: includes/admin/class-pciwgas-admin.php:188
+#: includes/admin/form-field/add-form.php:17
+#: includes/admin/form-field/edit-form.php:19
+msgid "Image"
+msgstr ""
+
+#: post-category-image-with-grid-and-slider.php:195
+#, php-format
+msgid ""
+"It looks like you had Pro version %s of this plugin activated. To avoid "
+"conflicts the extra version has been deactivated and we recommend you delete "
+"it."
+msgstr ""
+
+#: includes/shortcode/pciwgas-grid.php:23
+#: includes/shortcode/pciwgas-grid.php:31
+msgid "Post Category Image Grid - Shortcode"
+msgstr ""
+
+#: includes/admin/settings/settings.php:17
+msgid "Post Category Image Grid and Slider - Settings"
+msgstr ""
+
+#: includes/shortcode/pciwgas-slider.php:23
+#: includes/shortcode/pciwgas-slider.php:31
+msgid "Post Category Image Slider - Shortcode"
+msgstr ""
+
+#. Name of the plugin
+msgid "Post Category Image With Grid and Slider"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Post Category Image With Grid and Slider plugin allow users to upload  "
+"category (taxonomy) image and display in grid and slider view. Also work "
+"with Gutenberg shortcode block."
+msgstr ""
+
+#: includes/admin/settings/settings.php:71
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/settings/settings.php:65
+msgid ""
+"Select taxonomy box to enable support. Custom settings on category listing "
+"page will be enabled for selected categories."
+msgstr ""
+
+#: includes/admin/class-pciwgas-admin.php:40
+msgid "Solutions & Features"
+msgstr ""
+
+#: includes/admin/class-pciwgas-admin.php:40
+msgid "Solutions & Features - Post Category Image With Grid and Slider"
+msgstr ""
+
+#: includes/admin/settings/settings.php:50
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/admin/settings/settings.php:40
+msgid "Taxonomy Settings"
+msgstr ""
+
+#: post-category-image-with-grid-and-slider.php:194
+#, php-format
+msgid "Thank you for activating %s"
+msgstr ""
+
+#: includes/admin/class-pciwgas-admin.php:43
+msgid "Upgrade To Premium"
+msgstr ""
+
+#: includes/admin/class-pciwgas-admin.php:43
+msgid "Upgrade To Premium - Post Category Image With Grid and Slider"
+msgstr ""
+
+#: includes/admin/form-field/add-form.php:18
+#: includes/admin/form-field/edit-form.php:21
+msgid "Upload Image"
+msgstr ""
+
+#: includes/admin/form-field/add-form.php:22
+#: includes/admin/form-field/edit-form.php:25
+msgid "Upload or Choose category image."
+msgstr ""
+
+#: includes/admin/settings/settings.php:94
+msgid "Use the shortcode"
+msgstr ""
+
+#. Author of the plugin
+msgid "WP OnlineSupport, Essential Plugin"
+msgstr ""
+
+#: includes/admin/settings/settings.php:22
+msgid "Your changes saved successfully."
+msgstr ""

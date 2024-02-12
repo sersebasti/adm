@@ -1,0 +1,603 @@
+/*
+Theme Name: Cyber Security Blocks
+Theme URI: https://www.ovationthemes.com/wordpress/free-cyber-security-wordpress-theme/
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Cyber Security Blocks is a comprehensive and visually engaging solution designed specifically for websites related to cybersecurity, technology, and information security services. This theme seamlessly combines a sleek and professional design with robust functionalities to cater to the needs of cybersecurity professionals, technology firms, and organizations focused on safeguarding digital assets. The theme features a modern and clean layout, incorporating a balanced color scheme that reflects the seriousness of the cybersecurity domain while maintaining a user-friendly interface. Furthermore, it offers a range of customizable blocks and sections, allowing users to showcase key information effectively. These blocks include sections for services offered, team members, client testimonials, and featured case studies, providing a comprehensive overview of the cybersecurity expertise and capabilities of the website owner. Navigating through the theme, users will find intuitive menus and strategically placed call-to-action elements, enhancing the overall user experience. The responsive design ensures that the website functions seamlessly across various devices, accommodating the diverse ways users access cybersecurity-related information. The theme also supports essential functionalities for cybersecurity websites, such as secure contact forms, blog sections for sharing industry insights and updates, and integration with security plugins for added protection against online threats. Additionally, it also includes sections for showcasing certifications, partnerships, or notable achievements in the cybersecurity field.
+Requires at least: 6.1
+Tested up to: 6.4
+Requires PHP: 5.6
+Version: 1.3
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Text Domain: cyber-security-blocks
+Tags: blog, portfolio, e-commerce, one-column, two-columns, three-columns, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, right-sidebar, left-sidebar, grid-layout, custom-background, wide-blocks
+
+Cyber Security Blocks WordPress Theme, Copyright 2023 pewilliams
+Cyber Security Blocks is distributed under the terms of the GNU GPL
+
+*/
+
+a{
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+a:focus,
+button:focus{
+	outline: 2px solid blue !important;
+}
+.wp-block-navigation ul li a:focus,
+.wp-block-navigation .wp-block-navigation__submenu-icon:focus{
+	outline: none;
+	border: 1px solid #cf2e2e;
+}
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container{
+    background-color: var(--wp--preset--color--secondary);
+}
+.wp-block-navigation ul ul{
+    padding: 0 !important;
+}
+
+.wp-block-image img{
+    vertical-align: middle;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+form {
+    position: relative;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select {
+    width: 100%;
+    margin: 0;
+    padding: 10px 15px;
+    border: 1px solid #ebebeb;
+    outline: 0;
+    resize: none;
+    line-height: 20px;
+    background: none;
+    color: #000000;
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select::-ms-expand {
+    display: none; /* hide the default arrow in ie10 and ie11 */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--wp--preset--color--primary);
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(86deg,rgb(46,201,220) 0%,rgb(16,166,192) 100%);
+    color: #ffffff;
+    border-radius: 5px;
+}
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.wpcf7-form label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0 0 8px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group p{
+    margin: 0;
+}
+
+.form-group.half {
+    width: 48%;
+    margin-right: 4%;
+    float: left;
+}
+
+.form-group.half.last {
+    margin-right: 0;
+}
+
+.form-group.third {
+    width: 32%;
+    margin-right: 2%;
+    float: left;
+}
+
+.form-group.third.last {
+    margin-right: 0;
+}
+/*comment*/
+.wp-block-comments{
+    padding: 20px;
+    border: 1px solid #dfdfdf;
+}
+.wp-block-comment-template li .wp-block-columns{
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+}
+.wp-block-avatar img{
+    border: 1px solid #949494;
+    padding: 2px;
+}
+.wp-block-post-comments-form textarea{
+    background: #eee;
+}
+/*pagination*/
+.wp-block-query-pagination-numbers .page-numbers{
+    padding: var(--wp--preset--spacing--20);
+    line-height: 1;
+    text-decoration: none;
+    color:var(--wp--preset--color--primary);
+}
+.wp-block-query-pagination-numbers .page-numbers.current{
+    background:var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--white) !important;
+}
+.wp-block-query-pagination-numbers .page-numbers:hover{
+    color:var(--wp--preset--color--heading);
+}
+.wp-block-query-pagination-next, .wp-block-query-pagination-previous{
+    background:var(--wp--preset--color--primary);
+    font-size: var(--wp--preset--font-size--small);
+    line-height: 1;
+    padding: 10px;
+    color: var(--wp--preset--color--white);
+    text-decoration: none;
+}
+.wp-block-query-pagination-next:hover, .wp-block-query-pagination-previous:hover{
+    color: var(--wp--preset--color--white);
+    background-color: var(--wp--preset--color--heading);
+}
+/*sidebar css*/
+.sidebar-post-title{
+    margin-block-start: 10px;
+    margin-block-end: 0;
+}
+/*header*/
+.custom-home-header .menu-header{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    background: transparent !important;
+    right: 0;
+    left: 0;
+}
+.menu-header button{
+    background: transparent;
+}
+.search-block .wp-element-button:hover{
+    background: transparent;
+}
+/*banner*/
+.banner-image-cover img{
+    width: 100%;
+}
+.banner-small-heading h3 ,.aboutus-small-heading h3,.blog-small-heading h3,.chooseus-small-heading h3, .our-services-small-heading h3{ 
+    border-radius: 30px;
+}
+/*about-us*/
+.about-exp-text{
+    margin-block-start: 5px;
+}
+/*.about-img-1 img,.about-img-1{
+    width: 100%;
+}*/
+/*choose us*/
+.choose-us-list{
+    padding-inline-start: 22px;
+}
+.choose-us-list li{
+    list-style-image: url('images/chooseus-list.png');
+}
+.chooseus-box {
+    position: absolute;
+    right: 30px;
+    bottom: 8%;
+}   
+.choose-upper-box{
+    position: relative;
+}
+.img-choose-heading{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*service*/
+.service-box{
+    border-radius: 10px;
+}
+.readmore-group{
+    position: relative;
+    z-index: 999;
+    gap: 5px;
+}
+.service-readmore a{
+    text-decoration: none;
+}
+.blog-section .readmore-group:after {
+    left: 74px;
+    background: #b7e4ec;
+}
+.readmore-group:after {
+    content: '';
+    position: absolute;
+    background: #215363;
+    padding: 19px;
+    border-radius: 50%;
+    left: 69px;
+    bottom: -8px;
+    z-index: -1;
+}
+/*footer*/
+.custom-footer-class{
+    margin-block-start: 0;
+}
+footer .is-style-default{
+    margin-block-start: 6px;
+}
+footer ::marker{
+    color: #10a6c0;
+}
+/*woocommerce*/
+.woocommerce-Tabs-panel--reviews, .woocommerce-Tabs-panel--description {
+    padding: 20px !important;
+    border: 1px solid #e1e1e1;
+}
+.woocommerce span.onsale{
+    background-color:var(--wp--preset--color--primary);
+    border-radius: 10px;
+}
+nav.woocommerce-MyAccount-navigation ul li {
+    background: var(--wp--preset--color--primary);
+    border: 1px solid;
+    border-color: var(--wp--preset--color--primary);
+    padding: 12px!important;
+    margin-bottom: 10px;
+}
+nav.woocommerce-MyAccount-navigation ul li a{
+    color: var(--wp--preset--color--heading);
+}
+/* --- Block Media Quries
+-------------------------------------------------------- */
+/* --- > Media Queries
+-------------------------------------------------------- */
+/* --- > 781px
+-------------------------------------------------------- */
+@media screen and (max-width:999px) {
+    .post-grid-layout.wp-container-core-post-template-layout-1.wp-container-core-post-template-layout-1{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media screen and (max-width:600px){
+    .post-grid-layout.wp-container-core-post-template-layout-1.wp-container-core-post-template-layout-1{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width:999px) {
+
+    .wp-block-navigation__responsive-container,
+    .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content{
+        display: none;
+    }
+
+    .wp-block-navigation__responsive-container-close svg,
+    .wp-block-navigation__responsive-container-open svg{
+        width: 42px;
+        height: 42px;
+    }
+    
+    .wp-block-navigation__responsive-container-open svg path,
+    .wp-block-navigation__responsive-container-close svg path{
+        fill: var(--wp--preset--color--white);
+    }
+    .wp-block-navigation__responsive-container-close{
+        top: 10px;
+        right: 10px;
+    }
+
+    .wp-block-navigation__responsive-container-open:not(.always-shown){
+        display: block;
+    }
+
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+        display: none; 
+    }
+
+    .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open{
+        background-color: var(--wp--preset--color--secondary);
+    }
+
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content{
+        padding: 1.5em;
+        padding-top: 2.5rem;
+    }
+
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container {
+        width: 100%;
+        gap: 0 !important;
+        border-bottom: none;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item {
+        width: 100%;
+        gap: 0 !important;
+        border: none !important;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item a {
+        width: calc( 100% - 48px );
+        padding: 12px 24px 12px;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    /*
+    * Submenu Css
+    */
+
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item .wp-block-navigation__submenu-icon {
+        display: block !important;
+        margin-left: 15px;
+        padding: 3px 10px;
+        float: right;
+        font-size: 19px;
+        line-height: 1;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 42px;
+        width: 42px;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item .wp-block-navigation__submenu-icon svg {
+        stroke: var(--wp--preset--color--white);
+        display: block;
+        width: 30px;
+        height: 13px;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item ul.wp-block-navigation__submenu-container {
+        width: 100%;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+        display: none;
+        box-shadow: none;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item ul.wp-block-navigation__submenu-container li.wp-block-navigation-item a {
+        padding-left: 35px;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item .wp-block-navigation-submenu__toggle[aria-expanded=true] + ul.wp-block-navigation__submenu-container {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+}
+@media screen and (max-width:999px) {
+    .custom-home-header .menu-header{
+        position: static;
+        background: linear-gradient(86deg,rgb(46,201,220) 0%,rgb(16,166,192) 100%) !important;
+    }
+    .menu-header ,.banner-image-cover h2, .banner-image-cover p{
+        text-align: center;
+    }
+    .menu-header .wp-block-group,.nav-block nav,.banner-image-cover .is-layout-flex{
+        justify-content: center !important;
+    }
+    .banner-small-heading h3{ 
+        max-width: 100% !important;
+    }
+    .banner-small-heading{
+        display: grid;
+        justify-content: center !important;
+    }
+    .logo-block{
+        flex-basis: 30% !important;
+    }
+    .nav-block{
+        flex-basis: 20% !important;
+    }
+    .social-block{
+        flex-basis: 30% !important;
+    }
+    .search-block{
+        flex-basis: 20% !important;
+    }
+    .chooseus-box{
+        position: static;
+    }
+    .choose-us-img img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1700px){
+    .chooseus-box{
+        right: 2px;
+    }
+}
+@media screen and (max-width:1682px) and (min-width:1000px){
+    .chooseus-box {
+        right: -61px;
+    }
+    .social-block .wp-block-social-links{
+        font-size: 22px;
+        gap: 20px;
+    }
+    .banner-small-heading h3{
+        max-width: 41% !important;
+    }
+}
+@media screen and (max-width: 1400px) and (min-width: 782px){
+    .social-block .wp-block-social-links{
+        gap: 15px;
+    }
+    .inner-menu-header{
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 782px){
+    .banner-content-block{
+        flex-basis: 90% !important;
+    }
+    .banner-content-block h2 ,.about-exp-heading{
+        font-size: 35px !important;
+    }
+    .about-content h2, .choose-us-content h2{
+        font-size: 23px !important;
+    }
+    .about-content p, .about-exp-text ,.choose-us-content p{
+        font-size: 14px !important;
+    }
+    .exp-number{
+        font-size: 65px !important;
+    }
+    .exp-text{
+        font-size: 17px !important;
+    }
+    .service-box{
+        padding: 18px !important;
+    }
+    .chooseus-small-heading h3{
+        max-width: 45% !important;
+    }
+    .chooseus-box{
+        position: static;
+    }
+
+}
+@media screen and (max-width: 781px){
+    .menu-header .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+        flex-basis: 45%!important;
+    }
+    .search-block.is-layout-flow > .alignright{
+        float: none;
+    }
+    .about-img.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{
+        flex-basis: 40% !important;
+    }
+    .about-counter.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{
+        flex-basis: 35% !important;
+    }
+    .aboutus-small-heading,.chooseus-small-heading{
+        display: grid;
+        justify-content: center !important;
+    }
+    .aboutus-small-heading h3,.chooseus-small-heading h3{
+        max-width: 100% !important;
+    }
+    .about-us h2 ,.about-exp-text ,.choose-us-content h2{
+        text-align: center !important;
+    }
+    .about-us .wp-block-buttons,.choose-us-content .wp-block-buttons{
+        justify-content: center !important;
+    }
+    .our-services-small-heading h3{
+        max-width: 40% !important;
+    }
+    .choose-us-content{
+        padding-right: 0px !important;
+    }
+}
+@media screen and (max-width:600px){
+    .copyright-text{
+        display: grid !important;
+    }
+    .copyright-text p , .about-us p, .service-box h4, .service-box p, .choose-us-content p{
+        text-align: center;
+    }
+    .menu-header .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{
+        flex-basis: 100% !important;
+    }
+    .menu-header .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column.nav-block,.menu-header .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column.search-block{
+        flex-basis: 40% !important;
+    }
+    .about-content h2 ,.choose-us-content h2{
+        font-size: 18px !important;
+    }
+    .search-block.is-layout-flow > .alignright {
+        float: none;
+        display: grid;
+        justify-content: center;
+    }
+    .social-block .wp-block-social-links{
+        justify-content: center !important;
+    }
+    .banner-content-block h2{
+        font-size: 40px !important;
+    }
+    .info-box h2{
+        font-size: 25px !important;
+    }
+    .service-box{
+        padding: 15px !important;
+    }
+    .readmore-group:after{
+        left: 63px;
+    }
+    .about-counter.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{
+        flex-basis: 100% !important;
+    }
+
+}

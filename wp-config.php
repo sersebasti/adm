@@ -41,16 +41,18 @@ define( 'FTP_SSL', true );
 
 
 /** Il nome del database di WordPress */
-define( 'DB_NAME', "wp" );
+//define( 'DB_NAME', "wp" );
+define( 'DB_NAME', "wp_adm" );
 
 /** Nome utente del database MySQL */
 define( 'DB_USER', "root" );
 
 /** Password del database MySQL */
-define( 'DB_PASSWORD', "somewordpress" );
+//define( 'DB_PASSWORD', "somewordpress" );
+define( 'DB_PASSWORD', "mercatello" );
 
 /** Hostname MySQL  */
-define( 'DB_HOST', "192.168.16.3" );
+define( 'DB_HOST', "localhost" );
 
 /** Charset del Database da utilizzare nella creazione delle tabelle. */
 define( 'DB_CHARSET', 'utf8mb4' );

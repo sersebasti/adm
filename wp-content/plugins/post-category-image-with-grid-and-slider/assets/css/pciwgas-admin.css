@@ -1,0 +1,73 @@
+/* Category Image View */
+.pciwgas-img-view img {max-height: 150px; max-width: 150px; border: 1px solid #ccc; padding: 3px; margin: 5px 0 0 0; box-sizing: border-box;}
+.pciwgas-cat-img{max-height: 70px; max-width: 70px; border: 1px solid #ccc; padding: 3px; margin: 5px 0 0 0; box-sizing: border-box;}
+
+/* Code copy Text*/
+.pciwgas-shortcode-preview{background-color: #e7e7e7; font-weight: bold; padding: 2px 5px; display: inline-block; margin:0 0 2px 0;}
+.wpos-copy-clipboard{-webkit-touch-callout: all; -webkit-user-select: all; -khtml-user-select: all; -moz-user-select: all; -ms-user-select: all; user-select: all;}
+
+/* Builder Shortcode Preview */
+.pciwgas-builder-shrt-prev{background-color: #e7e7e7; padding: 10px; border: 1px solid #ccc; font-size: 15px;text-align: center;}
+.pciwgas-builder-shrt-title span{border-bottom: 1px solid #999; display: inline-block; padding: 0 0 5px 0;}
+
+/* Start - Solutions & Features Page CSS */
+.category-image_page_pciwgas-solutions-features #wpcontent{padding: 0 0 40px; line-height: normal;}
+.pciwgas-sf-wrap .pciwgas-sf-inr{padding: 30px 40px 0;}
+.pciwgas-sf-wrap .pciwgas-sf-welcome-wrap{background-color: #fff; justify-content: space-between; box-shadow: 0 3px 2px rgba(0,0,0,.05); margin-bottom: 20px; position: relative; color: #23282d;}
+.pciwgas-sf-welcome-wrap .pciwgas-sf-welcome-inr{display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; padding: 30px; gap: 10px;}
+.pciwgas-sf-welcome-wrap .pciwgas-sf-welcome-inr > *{flex: 1;}
+.pciwgas-sf-subtitle{color: #6c7781; font-size: 16px; font-weight: 600; margin-bottom: 6px;}
+.pciwgas-sf-title{font-size: 32px; font-weight: 600; color: #23282d; margin-top: 0; margin-bottom: 20px;}
+.pciwgas-sf-ttl{font-size: 23px; font-weight: 600; color: #23282d; margin-top: 0; margin-bottom: 20px;}
+.pciwgas-sf-content{margin: 0 0 20px; font-size: 16px; line-height: 150%; color: #646970;}
+.pciwgas-sf-btn{display: inline-block; font-size: 16px; padding: 10px 10px;  background-color: #46b450; border-color: #46b450; color: #fff !important; font-weight: 600; border-radius: 3px; text-decoration: none;}
+.pciwgas-sf-btn-orange{ background-color: #FF1000; border-color: #FF1000 ;}
+.pciwgas-sf-btn:hover,
+.pciwgas-sf-btn:focus{background-color: #3fa548; border-color: #3fa548;}
+.pciwgas-sf-btn-orange:hover,
+.pciwgas-sf-btn-orange:focus {background-color: #D01003 ; border-color: #D01003 ;}
+.pciwgas-sf-fp-ttl{font-size: 23px; line-height: 1.4em; margin-bottom: 10px; font-weight: 600; text-align: center;}
+.pciwgas-sf-fp-box-wrp{display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; gap: 10px;}
+.pciwgas-sf-fp-box-wrp .pciwgas-sf-fp-box{position: relative; border: 1px solid #c3e6cb; padding: 10px; text-align: center;}
+.pciwgas-sf-fp-box-wrp .pciwgas-sf-pro-box{border: 1px solid #f5c6cb;}
+.pciwgas-sf-fp-box-wrp>*{flex: 0 0 26.8%;}
+.pciwgas-sf-fp-box-wrp i.dashicons{font-size: 25px; display: inline-block; color: #528bfa; width: 30px; height: 30px; line-height: 30px;}
+.pciwgas-sf-fp-box-wrp .pciwgas-sf-box-ttl{font-size: 16px;}
+.pciwgas-sf-tag{position: absolute; display: inline-block; top: 0; right: 0; background-color: #d4edda; color: #155724; padding: 1px 8px; text-transform: uppercase; font-size: 12px; }
+.pciwgas-sf-pro-box .pciwgas-sf-tag{background-color: #f8d7da; color: #721c24;}
+.pciwgas-center{ text-align: center; }
+.pciwgas-rc-wrap{max-width: 550px; margin: 15px auto 0 auto; text-align: left;}
+.pciwgas-rc-wrap .pciwgas-rc-inr{display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-bottom: 15px;}
+.pciwgas-rc-wrap .pciwgas-rc-icon{margin-right: 15px; width: 60px; height: 60px;}
+.pciwgas-rc-wrap .pciwgas-rc-icon img{width: 100%; height: 100%;}
+.pciwgas-rc-wrap .pciwgas-rc-inr h3{font-size: 16px; margin: 0 0 5px 0;}
+.pciwgas-rc-wrap .pciwgas-rc-inr p{margin: 0;}
+.pciwgas-rc-wrap .pciwgas-rc-bg-box{ background-color:#f1f1f1; border: 1px solid #d1d1d1; padding: 5px 10px; }
+.pciwgas-solutions-section{margin-bottom: 20px;}
+.pciwgas-solutions-box-wrap{display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; gap: 15px;}
+.pciwgas-solutions-box-wrap>*{flex: 1 0 21%;}
+.pciwgas-solutions-box-wrap .pciwgas-solutions-box-grid{background-color: #ffffff; box-shadow: 0 0px 5px rgba(0, 0, 0, 0.08);}
+.pciwgas-solutions-box-wrap .pciwgas-box-ttl{background-color: #cce5ff; color: #004085; font-size: 16px; padding: 10px;}
+.pciwgas-solutions-box-wrap ul{padding: 0 10px; margin: 0;}
+.pciwgas-solutions-box-wrap ul li{position: relative; font-size: 14px; border-bottom: 1px solid #e7e7e7; margin: 0; padding: 8px 0;}
+.pciwgas-solutions-box-wrap ul li:last-child{border-bottom: none;}
+.pciwgas-sf-heading{font-size: 28px;font-weight: 700;letter-spacing: -1px;text-align: center;margin-top: 30px; margin-bottom:5px;}
+.pciwgas-sf-team{margin-bottom:20px; border: 1px solid #e5ecf6; padding:10px 30px 30px 30px;}
+.pciwgas-sf-blue{color:#6c63ff; font-weight:bold;}
+.pciwgas-features-section{background-color: #ffffff; box-shadow: 0 3px 2px rgba(0,0,0,.05);}
+.pciwgas-features-ttl{background-color: #d4edda; color: #155724; padding: 10px 30px; margin-bottom: 15px;}
+.pciwgas-features-ttl h2{margin-bottom: 5px; color: #155724;}
+.pciwgas-sf-cont{color: #464646;}
+.pciwgas-features-section .pciwgas-features-section-inr{padding: 15px 30px; margin-bottom:30px; text-align:center;}
+.pciwgas-features-section ul.pciwgas-features-box-grid{margin: 0 0 15px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; gap: 15px; list-style: none !important;}
+ul.pciwgas-features-box-grid>*{flex: 32%; text-align:center; font-size:13px; font-weight:bold;}
+ul.pciwgas-features-box-grid li{border:1px solid #f1f1f1; padding:10px 0;}
+ul.pciwgas-features-box-grid .pciwgas-popup-icon img{width: 100%; max-width: 100%; height: auto;}
+.pciwgas-testimonial-section-inr{text-align:center;}
+.pciwgas-testimonial-box-wrap{margin-bottom:15px;}
+.pciwgas-testimonial-box-wrap{display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; gap: 15px;}
+.pciwgas-testimonial-box-wrap>*{flex: 1 0 21%;}
+.pciwgas-testimonial-box-wrap .pciwgas-testimonial-box-grid{border: 1px solid #ddd;background:#fff;  box-shadow: 0 3px 2px rgba(0,0,0,.05); padding: 30px;text-align: center;display: flex;flex-direction: column;align-items: center;}
+.pciwgas-testimonial-box-wrap h3{margin-top:0px;}
+.pciwgas-testimonial-clnt{margin:15px 0 0 0; font-size:16px; font-weight:bold;}
+/* End - Solutions & Features Page CSS */
